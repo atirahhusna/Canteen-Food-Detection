@@ -1,0 +1,18 @@
+pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+pip install flask
+pip install ultralytics
+pip install mysql-connector-python
+pip install ndeflib
+Pip install pyscard 
+Pip install opencv-python
+pip install waitress
+pip install gunicorn
+pip install requests
+pip install flask_cors
+pip install oracledb
+
+
+waitress-serve --host=0.0.0.0 --port=5000 app:app
+
+
+download nginx for window put in C:/
